@@ -1,9 +1,13 @@
 package main;
+import model.*;
 
 public class Main {
 
+	//metodo principal
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+	
+		Carro c1 = new Carro();
+		c1.ligar();
 
 	}
 
